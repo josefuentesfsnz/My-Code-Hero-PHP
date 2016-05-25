@@ -3,5 +3,8 @@
     if($db->connect_errno > 0)
     {
         die('Imposible conectar [' . $db->connect_error . ']');
+    }else
+    {
+        echo "conectado";
     }
 ?>
